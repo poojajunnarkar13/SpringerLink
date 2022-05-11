@@ -1,0 +1,6 @@
+Justification:
+
+-> I have automated Search functionality using Robot framework with python & selenium library.
+-> The reason behind using this tool is easy to use and understand for any person.
+-> It has readily available libraries to use. 
+-> Also it has great reporting feature which gives all the required information.
