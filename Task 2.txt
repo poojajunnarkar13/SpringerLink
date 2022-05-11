@@ -1,0 +1,14 @@
+1. List what levels and boundaries of automation tests are required?
+-> Following 2 levels of automation tests are required 
+a. Functional testing
+b. UI testing
+c. Unit testing
+
+2. When/where/how frequently these tests run? 
+-> These tests need to be executed in each sprint whenever new features are being added to the software or new changes being done to existing software.
+
+3. When/where/how does manual testing fit in?
+-> Manual testing fits in when we are doing security testing while uploading files to the cloud
+
+4. What techniques can you use to this in a continuous delivery environment i.e each build goes straight to production without manual intervention. [there is no button to push things to production] 
+-> In such case, test automation would be helpful. We can automate all 3 levels of automation mentioned above and build can be pushed to production if the result of execution of these test cases is as per expectations.

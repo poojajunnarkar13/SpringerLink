@@ -1,0 +1,37 @@
+Testing diff modules:
+1. Search
+2. Login
+3. Homepage/Dashboard
+4. Documents - books, journals, series, protocols, reference works, proceedings, videos
+
+Functional Testing:
+#Usability test cases
+1. Web page content should be correct, without any spelling mistake[p3]
+2. All fonts should be same as per requirements [p3]
+3. Text should be properly aligned [p3]
+4. Tooltips should be shown for all fetaured books & journals.[p4]
+Bug - inconsistency in tooltip format [p4]
+5. Home link should be present on every page [p3]
+Bug - Home link is not present if we click to view any journal or book [p3]
+6. Website should work fine on different resolutions [p4]
+7. UI should be consistent on all browsers
+Bug - Inconsistency in UI, different UI for different pages [p2]
+
+
+Login funcationality:
+1. Mandatory fields should be highlighted with asterisk
+Bug: No asterisk sign to display all the mandatory fields.[p4]
+2. Character limit for all fields [p4]. Check the pop up message (“This field is limited to 500 characters”) should display if the data reaches the maximum size of the field.
+
+Search fucntionality
+1. If search button is clicked without putting any value in search textbox, list of all journals, books, disciplines, articles etc are displayed as a search result
+2. search input text validations - following tupe of inputs will give same results:
+  star
+ 'star'
+ "star"
+  STAR
+ 'STAR'
+ "STAR"
+3. Verify advanced search feature
+4. Verify search help feature
+
